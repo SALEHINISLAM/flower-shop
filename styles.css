@@ -1,6 +1,31 @@
+bosy{
+    font-family: 'Lato',sans-serif;
+}
 /* header part */
 header{
-    background-color: rgb(229, 84, 115);
-    background-image: url('Flower Asset/pngwing\ 10.png');
+    background-color: #F9DCE3;
+    /* background-image: url('Flower Asset/pngwing\ 10.png');
     background-repeat: no-repeat;
+    background-position: bottom right; */
+    /* padding: 195px 973px 187px 240px; */
+    padding: 195px 240px 0px 240px;
+    margin: 0;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-primary{
+    border:0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #E55473;
+    padding: 20px 43px;
+}
+.feature{
+    padding: 175px 240px 0px 240px;
+
 }
