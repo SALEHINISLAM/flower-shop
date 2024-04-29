@@ -113,6 +113,6 @@ footer{
     text-align: center;
     color: #fff;
 }
-button:hover{
+button:hover,#hop:hover{
     background-color: darkgray;
 }
