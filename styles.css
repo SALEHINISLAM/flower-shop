@@ -1,5 +1,6 @@
 bosy{
     font-family: 'Lato',sans-serif;
+    color: #272727;
 }
 /* header part */
 header{
@@ -8,7 +9,7 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right; */
     /* padding: 195px 973px 187px 240px; */
-    padding: 195px 240px 0px 240px;
+    padding: 50px 240px 0px 240px;
     margin: 0;
 }
 .heading{
@@ -27,5 +28,21 @@ header{
 }
 .feature{
     padding: 175px 240px 0px 240px;
-
+    text-align: center;
+}
+.featuresec{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.fimage>img{
+    width: 375px;
+    height: 450px;
+    padding: 110px 50px 0px 50px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 15px;
+}
+figcaption{
+    font-size: 24px;
+    font-weight: bold;
 }
