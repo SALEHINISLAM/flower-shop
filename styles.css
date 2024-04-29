@@ -1,10 +1,11 @@
 bosy{
     font-family: 'Lato',sans-serif;
     color: #272727;
+    font-style: normal;
 }
 /* header part */
 header{
-    background-color: #F9DCE3;
+    background-color: rgba(229, 84, 115,0.1);
     /* background-image: url('Flower Asset/pngwing\ 10.png');
     background-repeat: no-repeat;
     background-position: bottom right; */
@@ -27,8 +28,9 @@ header{
     padding: 20px 43px;
 }
 .feature{
-    padding: 175px 240px 0px 240px;
+    padding: 150px 200px 0px 200px;
     text-align: center;
+    margin: 10px;
 }
 .featuresec{
     display: flex;
@@ -42,7 +44,75 @@ header{
     border-radius: 300px 300px 0px 0px;
     margin: 15px;
 }
-figcaption{
+.fimage>figcaption{
     font-size: 24px;
     font-weight: bold;
+}
+.service{
+    margin: 125px 240px;
+    background-color: rgba(39,39,39,0.05);
+    padding: 85px 170px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+}
+.service>figcaption{
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.offer{
+    background-color: rgba(229, 84, 115,0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0 90px 0;
+    margin-bottom: 125px;
+    align-items: center;
+}
+.instagram{
+    margin: 0px 220px;
+    text-align: center;
+}
+.instaim{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+/* form{
+    display: flex;
+    justify-content: space-around;
+} */
+.subscribe{
+    margin: 130px 230px;
+    background-image: url('Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px 250px;
+}
+.pad{
+    margin: 20px;
+}
+#mail{
+    border:0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #272727;
+    padding: 22px 22px;
+    opacity: 0.6;
+    background-color: #fff;
+    width: 45%;
+    text-align: left;
+}
+footer{
+    padding: 125px 240px;
+    background-color: #111010;
+    text-align: center;
+    color: #fff;
+}
+button:hover{
+    background-color: darkgray;
 }
